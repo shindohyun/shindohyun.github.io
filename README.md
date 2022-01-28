@@ -1,6 +1,7 @@
 # shindohyun.github.io
 > **Jeklly theme: Just the Docs**  
-docker-compose.yml, Dockerfile 수정됨
+Dockerfile 수정  
+docker-compose-local.xml, Dockerfile.local 추가 
 
 ---
 
