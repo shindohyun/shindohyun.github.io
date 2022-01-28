@@ -1,8 +1,40 @@
 # shindohyun.github.io
-> **Jeklly theme: Just the Docs 초기 설정**  
-./Dockerfile: bundler 버전 변경 (2.1.4)  
-./.github/workflows/ci-master.yml: bundler 버전 변경 (2.1.4), jekyll-latest job 제거
-./_config.xml: url 변경
+## Jeklly theme: Just the Docs 초기 설정
+- Dockerfile: bundler 버전 변경  
+```docker
+RUN gem install bundler && bundle install               # 변경전
+RUN gem install bundler:2.1.4 && bundle _2.1.4_ install # 변경후
+```
+- github/workflows/ci-master.yml: bundler 버전 변경 및 jekyll-latest job 제거
+```yml
+# 변경전
+jobs:
+  jekyll-latest:
+    ...
+  jekyll-3-8-5:
+    name: Build Jekyll site (v3.8.5)
+    ...
+    jekyll/builder:3.8.5 /bin/bash -c "gem install bundler && chmod -R 777 /srv/jekyll && bundle install && bundle exec jekyll build && bundle exec rake search:init"
+
+# 변경후
+jobs:
+  jekyll-2-1-4:
+    name: Build Jekyll site (v2.1.4)
+    ...
+    jekyll/builder:2.1.4 /bin/bash -c "gem install bundler:2.1.4 && chmod -R 777 /srv/jekyll && bundle _2.1.4_ install && bundle exec jekyll build && bundle exec rake search:init"
+
+```
+- _config.xml: URL 변경
+```yml
+# 변경전
+baseurl: "/just-the-docs" # the subpath of your site, e.g. /blog
+url: "https://pmarsceill.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+
+# 변경후
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://shindohyun.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+```
+
 ---
 
 <p align="right">
