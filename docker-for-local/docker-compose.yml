@@ -6,11 +6,11 @@ services:
     image: jekyll
     build:
       context: .
-      dockerfile: Dockerfile.local
+      dockerfile: Dockerfile
     ports:
       - 4000:4000
     volumes:
-      - .:/app
+      - ../:/app
     network_mode: bridge
     stdin_open: true
     tty: true

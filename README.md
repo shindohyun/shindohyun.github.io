@@ -1,8 +1,7 @@
 # shindohyun.github.io
-> **Jeklly theme: Just the Docs**  
-Dockerfile 수정  
-docker-compose-local.xml, Dockerfile.local 추가 
-
+> **Jeklly theme: Just the Docs 초기 설정**  
+./Dockerfile: bundler 버전 변경 (2.1.4)  
+.github/workflows/ci-master.yml: bundler 버전 변경 (2.1.4), jekyll-latest job 제거
 ---
 
 <p align="right">
