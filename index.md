@@ -13,7 +13,6 @@ permalink: /
 
 ---
 
-
 ## Interest
 ### Web
 - Frontend: Vue.js, JSP, JavaScript(ES6+), Axios, Ajax
@@ -22,9 +21,14 @@ permalink: /
 ### App
 - Android: AAC, MVVM, Retrofit, OkHttp
 
-### etc.
+### Database
+- MySQL
+
+### DevOps·Infra
 - Docker
-- Database: MySQL
+- AWS
+
+### etc.
 - Windows System: C, C++, MFC, Win32 API, Hooking
 
 ## Experience
