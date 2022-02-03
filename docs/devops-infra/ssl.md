@@ -2,6 +2,7 @@
 layout: default
 title: SSL
 parent: DevOps·Infra
+permalink: /docs/devops-infra/ssl
 nav_order: 1
 ---
 

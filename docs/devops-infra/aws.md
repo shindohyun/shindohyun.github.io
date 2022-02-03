@@ -2,6 +2,7 @@
 layout: default
 title: AWS
 #parent: DevOps·Infra
+#permalink: /docs/devops-infra/aws
 #nav_order: 1
 nav_exclude: true
 search_exclude: true
