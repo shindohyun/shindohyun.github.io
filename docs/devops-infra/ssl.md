@@ -29,7 +29,7 @@ SSL 인증서를 무료로 발급해주는 CA
   a. `sudo yum install certbot -y`
 
 3. 인증서 생성 (Standalone)  
-  a. `certbot certonly --standalone -d 도메인` ex) certbot certonly --standalone -d domain.com -d www.domain.com  
+  a. `certbot certonly --standalone -d <도메인>` ex) certbot certonly --standalone -d domain.com -d www.domain.com  
   b. 생성 위치: `/etc/letsencrypt/live`
 
 ### Standalone 특징
