@@ -17,9 +17,9 @@ nav_order: 2
 
 ---
 
-## Mac
+## Setup on Mac
 
-### [NVM](https://github.com/nvm-sh/nvm) 설치
+### [NVM (Node Version Manager)](https://github.com/nvm-sh/nvm) 설치
 1. 환경변수 파일에 nvm 경로가 추가되었는지 확인: `/bin/zsh`을 사용하는 경우 `~/.zshrc`
 2. 환경변수 적용: `source <환경변수 파일>`
 
@@ -32,5 +32,13 @@ nav_order: 2
 - 특정 버전 node 사용: `nvm use <version>`
 - 특정 버전 node 제거: `nvm uninstall <version>`
 
-### Node 명령어
+---
+
+## Node 명령어
 - node 버전 확인: `node -v`
+
+---
+
+## NPM 명령어
+- install 옵션 `-g`: 시스템 전역 설치
+- install 옵션 `--save`: 현재 위치 설치
