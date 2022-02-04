@@ -17,6 +17,12 @@ nav_order: 4
 
 ---
 
+## Create Project
+1. Vue CLI 설치: `npm install -g @vue/cli`
+2. 프로젝트 생성: `vue create <project name>`
+
+---
+
 ## VSCode
 
 ### 확장 프로그램 설치
