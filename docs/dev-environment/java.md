@@ -17,7 +17,7 @@ nav_order: 1
 
 ---
 
-## Mac
+## Setup on Mac
 
 ### [Temurin (Adoptium OpenJDK)](https://adoptium.net/) 설치
 - 설치된 JDK 목록 확인: `/usr/libexec/java_home -V`
