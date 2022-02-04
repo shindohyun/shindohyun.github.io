@@ -28,11 +28,14 @@ search_exclude: true
 2. 고정 IP  
   a. 고정 IP 생성  
   b. 인스턴스에 할당
-4. DNS zone  
-[Route 53](#route-53)에서 도메인 등록이 선행되어야한다.  
+3. DNS zone  
+  [Route 53](#route-53)에서 도메인 등록이 선행되어야한다.  
   a. DNS zone 생성  
   b. 도메인 입력  
   c. 레코드 추가: 서브 도메인 생성과 고정 IP 할당  
   d. Name server를 Route 53에 등록
-5. 포트 추가  
+4. 포트 추가  
   a. 인스턴스에 443 포트 추가
+5. 인스턴스 실행 및 리눅스 설정  
+  a. 리눅스 버전 확인: `cat /etc/issue`  
+  b. root 패스워드 설정: `sudo passwd root`
