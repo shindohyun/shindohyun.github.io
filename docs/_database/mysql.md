@@ -9,6 +9,12 @@ nav_order: 2
 # MySQL
 {: .no_toc }
 
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+
 ---
 
 ## 기본
@@ -368,3 +374,5 @@ TIMESTAMPDIFF(SECOND/MINUTE/HOUR/DAY/WEEK/MONTH/QUARTER/YEAR, 날짜1, 날짜2)
 SELECT TIMESTAMPDIFF(MINUTE, '2019-02-01 00:00:00', '2018-01-02 00:00:00')
 ```
 
+## 명령어
+- Character Set 설정 보기: `show variables like 'c%';`
