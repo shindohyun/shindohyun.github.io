@@ -31,7 +31,11 @@ permalink: /
 ### etc.
 - Windows System: C, C++, MFC, Win32 API, Hooking
 
+---
+
 ## Experience
+
+---
 
 ## Contact
 - <a href="mailto:shindohyunx@gmail.com">shindohyunx@gmail.com</a>
