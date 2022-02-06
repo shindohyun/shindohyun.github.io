@@ -42,3 +42,6 @@ nav_order: 2
 ## NPM 명령어
 - install 옵션 `-g`: 시스템 전역 설치
 - install 옵션 `--save`: 현재 위치 설치
+- 설치 모듈 목록 보기: `npm -g ls`
+- 설치된 모듈 삭제: `npm uninstall <module name>`
+- nvm 사용시 설치된 모듈 삭제: `~/.nvm/versions/node/<version directory>/lib/node_modules` 아래에 module directory 삭제
