@@ -44,4 +44,6 @@ nav_order: 2
 - install 옵션 `--save`: 현재 위치 설치
 - 설치 모듈 목록 보기: `npm -g ls`
 - 설치된 모듈 삭제: `npm uninstall <module name>`
-- nvm 사용시 설치된 모듈 삭제: `~/.nvm/versions/node/<version directory>/lib/node_modules` 아래에 module directory 삭제
+- nvm 사용시 설치된 모듈 삭제  
+1. `npm -g ls` 를 입력하여 모듈이 설치되어 있는 경로를 찾는다.  
+2. 모듈이 설치되어 있는 위치로 이동하여 모듈 디렉터리를 삭제한다.
