@@ -20,6 +20,8 @@ nav_order: 4
 ## Create Project
 1. Vue CLI 설치: `npm install -g @vue/cli`
 2. 프로젝트 생성: `vue create <project name>`
+3. vue-router 추가: `vue add router` (for vue2)
+4. vuetify 추가: `vue add vuetify` (for vue2)
 
 ---
 
