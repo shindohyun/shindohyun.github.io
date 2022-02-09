@@ -49,3 +49,16 @@ export default {
 ```
 
 - VSCode Vue Base Code Snippets 설정 방법: `Code > Preference > User Snippets > vue.json`
+
+```
+{
+  "Generate Vue Base Code": {
+    "prefix": "vue-base",
+    "body": [
+      "<base code>"
+    ],
+    "description": "Generate Vue Base Code"
+  }
+}
+
+```
