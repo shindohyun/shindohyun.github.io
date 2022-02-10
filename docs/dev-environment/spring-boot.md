@@ -50,3 +50,6 @@ nav_order: 3
     ]
 }
 ```
+
+### Gradle 명령어
+- Gradle Refresh: `./gradlew --refresh-dependencies`
