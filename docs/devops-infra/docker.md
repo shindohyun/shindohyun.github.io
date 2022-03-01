@@ -18,6 +18,7 @@ nav_order: 2
 ---
 
 ## 명령어
+- Dockerfile 빌드: `docker build -t <이미지 이름<:태그>> <Dockerfile 위치>`
 - 컨테이너를 이미지로 저장: `docker commit -a <작성자> -m <코멘트> <컨테이너명> <레포지토리 이름<:태그>>`
 - 목록 검색: `docker <container|image|network|volume> ls`
 - stop 상태 컨테이너까지 모두 조회: `docker ps -a`
