@@ -3,7 +3,7 @@ layout: default
 title: Nginx
 parent: DevOps·Infra
 permalink: /docs/devops-infra/nginx
-nav_order: 3
+nav_order: 4
 ---
 
 # Nginx

@@ -3,7 +3,7 @@ layout: default
 title: Docker
 parent: DevOps·Infra
 permalink: /docs/devops-infra/docker
-nav_order: 2
+nav_order: 3
 ---
 
 # Docker
@@ -18,17 +18,26 @@ nav_order: 2
 ---
 
 ## 명령어
+
+### 생성
 - Dockerfile 빌드: `docker build -t <이미지 이름<:태그>> <Dockerfile 위치>`
 - 컨테이너를 이미지로 저장: `docker commit -a <작성자> -m <코멘트> <컨테이너명> <레포지토리 이름<:태그>>`
+
+### 조회
 - 목록 검색: `docker <container|image|network|volume> ls`
 - stop 상태 컨테이너까지 모두 조회: `docker ps -a`
 - 상세보기: `docker <container|image|network|volume> inspect <이름>`
+- 컨테이너 로그 보기: `docker logs <container name>`
+
+### 변경
 - 태그 변경: `docker tag <from 레포지토리 이름<:태그>> <to 레포지토리 이름:태그>`
 - 네트워크 연결: `docker network connect <네트워크 이름> <컨테이너명>`
 - 네트워크 해제: `docker network disconnect <네트워크 이름> <컨테이너명>`
 - 네트워크 삭제: `docker network rm <네트워크 이름>`
+
+### 오퍼레이팅
 - 컨테니어 SSH 접속: `docker exec -it <container name> /bin/bash`
-- 컨테이너 로그 보기: `docker logs <container name>`
+- Docker 컨테이너끼리 통신하는지 확인: `docker exec <from container name> ping <to container name>`
 
 ---
 
