@@ -37,7 +37,13 @@ nav_order: 3
 
 ### 오퍼레이팅
 - 컨테니어 SSH 접속: `docker exec -it <container name> /bin/bash`
-- Docker 컨테이너끼리 통신하는지 확인: `docker exec <from container name> ping <to container name>`
+- 컨테이너간 통신 확인: `docker exec <from container name> ping <to container name>`
+
+---
+
+## 주의
+- 컨테이너간 통신을 위해서는 **동일한 네트워크**를 사용해야한다.
+- 컨테이너간 통신 시 컨테이너 이름을 사용하려면 **사용자 정의 브릿지 네트워크**를 사용해야한다.
 
 ---
 
@@ -53,7 +59,7 @@ docker container run -d \
 -v <volume path>/nginx/log:/var/log/nginx \
 -v <volume path>/nginx/conf/default.conf:/etc/nginx/conf.d/default.conf \
 -v <letsencrypt directory path>:<letsencrypt directory path> \
---net bridge \
+--net <network name> \
 nginx:latest
 ```
 
@@ -77,7 +83,7 @@ services:
 networks:
   default:
     external: true
-    name: bridge
+    name: <network name>
 ```
 
 ---
@@ -94,7 +100,7 @@ docker container run -d \
 -v <volume path>/mariadb/conf.d:/etc/mysql/conf.d \
 -v <volume path>/mariadb/data:/var/lib/mysql \
 -v <volume path>/mariadb/initdb.d:/docker-entrypoint-initdb.d \
---net bridge \
+--net <network name> \
 mariadb \
 --character-set-server=utf8mb4 \
 --collation-server=utf8mb4_unicode_ci
@@ -124,5 +130,5 @@ services:
 networks:
   default:
     external: true
-    name: bridge
+    name: <network name>
 ```
