@@ -36,7 +36,7 @@ nav_order: 3
 - 네트워크 삭제: `docker network rm <네트워크 이름>`
 
 ### 오퍼레이팅
-- 컨테니어 SSH 접속: `docker exec -it <container name> /bin/bash`
+- 컨테니어 SSH 접속: `docker exec -it <container name> /bin/<shell>`
 - 컨테이너간 통신 확인: `docker exec <from container name> ping <to container name>`
 
 ---
