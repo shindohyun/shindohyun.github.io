@@ -22,7 +22,7 @@ permalink: /
 - Android: AAC, MVVM, Retrofit, OkHttp
 
 ### Database
-- MySQL
+- MySQL, H2
 
 ### DevOps·Infra
 - Docker
