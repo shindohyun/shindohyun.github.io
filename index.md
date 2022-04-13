@@ -15,8 +15,8 @@ permalink: /
 
 ## Interest
 ### Web
-- Frontend: Vue.js, JSP, JavaScript(ES6+), Axios, Ajax
-- Backend: Spring, Spring Boot, REST API
+- Frontend: Vue.js, Thymeleaf, JavaScript(ES6+), Axios, Ajax, jQuery, HTML
+- Backend: Spring, Spring Boot, Java, REST API, JSP
 
 ### App
 - Android: AAC, MVVM, Retrofit, OkHttp
