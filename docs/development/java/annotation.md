@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Annotation
+grand_parent: Development
 parent: Java
-permalink: /docs/java/annotation
+permalink: /docs/development/java/annotation
 nav_order: 6
 ---
 

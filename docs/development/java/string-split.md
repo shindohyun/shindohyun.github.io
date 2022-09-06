@@ -1,8 +1,9 @@
 ---
 layout: default
 title: 문자열 자르기
+grand_parent: Development
 parent: Java
-permalink: /docs/java/string-split
+permalink: /docs/development/java/string-split
 nav_order: 13
 ---
 

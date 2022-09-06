@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Integer.parseInt(String s, int radix)
+grand_parent: Development
 parent: Java
-permalink: /docs/java/integer-parseint
+permalink: /docs/development/java/integer-parseint
 nav_order: 15
 ---
 

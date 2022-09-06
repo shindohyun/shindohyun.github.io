@@ -1,8 +1,9 @@
 ---
 layout: default
 title: 정렬
+grand_parent: Development
 parent: Java
-permalink: /docs/java/sort
+permalink: /docs/development/java/sort
 nav_order: 2
 ---
 

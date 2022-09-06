@@ -1,8 +1,9 @@
 ---
 layout: default
 title: 동등 비교
+grand_parent: Development
 parent: Java
-permalink: /docs/java/equality
+permalink: /docs/development/java/equality
 nav_order: 9
 ---
 

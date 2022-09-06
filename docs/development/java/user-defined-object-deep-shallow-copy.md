@@ -1,8 +1,9 @@
 ---
 layout: default
 title: 사용자 정의 객체의 깊은 복사와 얕은 복사
+grand_parent: Development
 parent: Java
-permalink: /docs/java/user-defined-object-deep-shallow-copy
+permalink: /docs/development/java/user-defined-object-deep-shallow-copy
 nav_order: 12
 ---
 

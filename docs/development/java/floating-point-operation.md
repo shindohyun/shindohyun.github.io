@@ -1,8 +1,9 @@
 ---
 layout: default
 title: 소수점 처리
+grand_parent: Development
 parent: Java
-permalink: /docs/java/floating-point-operation
+permalink: /docs/development/java/floating-point-operation
 nav_order: 11
 ---
 

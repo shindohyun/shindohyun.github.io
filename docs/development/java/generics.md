@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Generics
+grand_parent: Development
 parent: Java
-permalink: /docs/java/generics
+permalink: /docs/development/java/generics
 nav_order: 8
 ---
 

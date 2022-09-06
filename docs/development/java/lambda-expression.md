@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Lambda Expression
+grand_parent: Development
 parent: Java
-permalink: /docs/java/lambda-expression
+permalink: /docs/development/java/lambda-expression
 nav_order: 3
 ---
 

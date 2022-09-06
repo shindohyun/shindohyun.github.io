@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Array 와 List 변환
+grand_parent: Development
 parent: Java
-permalink: /docs/java/converting-between-array-list
+permalink: /docs/development/java/converting-between-array-list
 nav_order: 14
 ---
 

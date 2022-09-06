@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Enums
+grand_parent: Development
 parent: Java
-permalink: /docs/java/enums
+permalink: /docs/development/java/enums
 nav_order: 7
 ---
 

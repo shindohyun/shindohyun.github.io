@@ -1,8 +1,9 @@
 ---
 layout: default
 title: 입출력 시간 줄이기
+grand_parent: Development
 parent: Java
-permalink: /docs/java/fast-io
+permalink: /docs/development/java/fast-io
 nav_order: 1
 ---
 

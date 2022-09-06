@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Collection과 Map
+grand_parent: Development
 parent: Java
-permalink: /docs/java/collection-map
+permalink: /docs/development/java/collection-map
 nav_order: 5
 ---
 

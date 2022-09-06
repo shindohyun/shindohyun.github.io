@@ -1,8 +1,9 @@
 ---
 layout: default
 title: JNI (Java Native Interface)
+grand_parent: Development
 parent: Java
-permalink: /docs/java/jni
+permalink: /docs/development/java/jni
 nav_order: 10
 ---
 

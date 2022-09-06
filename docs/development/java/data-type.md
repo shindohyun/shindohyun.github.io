@@ -1,8 +1,9 @@
 ---
 layout: default
 title: 자료형
+grand_parent: Development
 parent: Java
-permalink: /docs/java/data-type
+permalink: /docs/development/java/data-type
 nav_order: 4
 ---
 
