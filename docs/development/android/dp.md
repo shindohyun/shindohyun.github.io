@@ -1,8 +1,9 @@
 ---
 layout: default
 title: DP
+grand_parent: Development
 parent: Android
-permalink: /docs/android/dp
+permalink: /docs/development/android/dp
 nav_order: 11
 ---
 

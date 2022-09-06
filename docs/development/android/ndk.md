@@ -1,8 +1,9 @@
 ---
 layout: default
 title: NDK (Native Development Kit)
+grand_parent: Development
 parent: Android
-permalink: /docs/android/ndk
+permalink: /docs/development/android/ndk
 nav_order: 2
 ---
 

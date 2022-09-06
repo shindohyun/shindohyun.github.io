@@ -1,8 +1,9 @@
 ---
 layout: default
 title: 평문 네트워크 트래픽 허용하기
+grand_parent: Development
 parent: Android
-permalink: /docs/android/permit-cleartext-traffic
+permalink: /docs/development/android/permit-cleartext-traffic
 nav_order: 4
 ---
 

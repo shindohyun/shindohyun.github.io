@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Splash
+grand_parent: Development
 parent: Android
-permalink: /docs/android/splash
+permalink: /docs/development/android/splash
 nav_order: 6
 ---
 

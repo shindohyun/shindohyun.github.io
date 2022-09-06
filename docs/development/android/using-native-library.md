@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Native Library 사용하기
+grand_parent: Development
 parent: Android
-permalink: /docs/android/using-native-library
+permalink: /docs/development/android/using-native-library
 nav_order: 3
 ---
 

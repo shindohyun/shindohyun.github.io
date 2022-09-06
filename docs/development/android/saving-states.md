@@ -1,10 +1,10 @@
 ---
 layout: default
 title: 상태 저장
-grand_parent: Android
-parent: AAC
-permalink: /docs/android/aac/saving-states
-nav_order: 7
+grand_parent: Development
+parent: Android
+permalink: /docs/development/android/saving-states
+nav_order: 18
 ---
 
 # 상태 저장

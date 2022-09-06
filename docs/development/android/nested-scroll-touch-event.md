@@ -1,6 +1,7 @@
 ---
 layout: default
 title: 중첩 스크롤 터치 이벤트 처리
+grand_parent: Development
 parent: Android
 permalink: /docs/android/nested-scroll-touch-event
 nav_order: 1

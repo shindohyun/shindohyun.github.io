@@ -1,10 +1,10 @@
 ---
 layout: default
 title: LiveData
-grand_parent: Android
-parent: AAC
-permalink: /docs/android/aac/livedata
-nav_order: 6
+grand_parent: Development
+parent: Android
+permalink: /docs/development/android/livedata
+nav_order: 17
 ---
 
 # LiveData

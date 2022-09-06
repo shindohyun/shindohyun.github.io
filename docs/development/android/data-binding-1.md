@@ -1,10 +1,10 @@
 ---
 layout: default
 title: Data Binding(1)
-grand_parent: Android
-parent: AAC
-permalink: /docs/android/aac/data-binding-1
-nav_order: 2
+grand_parent: Development
+parent: Android
+permalink: /docs/development/android/data-binding-1
+nav_order: 13
 ---
 
 # Data Binding(1)

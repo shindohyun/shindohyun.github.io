@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Inflation
+grand_parent: Development
 parent: Android
-permalink: /docs/android/inflation
+permalink: /docs/development/android/inflation
 nav_order: 7
 ---
 

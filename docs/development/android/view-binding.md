@@ -1,10 +1,10 @@
 ---
 layout: default
 title: View Binding
-grand_parent: Android
-parent: AAC
-permalink: /docs/android/aac/view-binding
-nav_order: 1
+grand_parent: Development
+parent: Android
+permalink: /docs/development/android/view-binding
+nav_order: 12
 ---
 
 # View Binding

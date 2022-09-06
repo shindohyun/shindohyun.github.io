@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Application Class
+grand_parent: Development
 parent: Android
-permalink: /docs/android/application-class
+permalink: /docs/development/android/application-class
 nav_order: 5
 ---
 

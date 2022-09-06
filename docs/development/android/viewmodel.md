@@ -1,10 +1,10 @@
 ---
 layout: default
 title: ViewModel
-grand_parent: Android
-parent: AAC
-permalink: /docs/android/aac/viewmodel
-nav_order: 5
+grand_parent: Development
+parent: Android
+permalink: /docs/development/android/viewmodel
+nav_order: 16
 ---
 
 # ViewModel

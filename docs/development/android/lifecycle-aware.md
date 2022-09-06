@@ -1,10 +1,10 @@
 ---
 layout: default
 title: 수명 주기 인식
-grand_parent: Android
-parent: AAC
-permalink: /docs/android/aac/lifecycle-aware
-nav_order: 4
+grand_parent: Development
+parent: Android
+permalink: /docs/development/android/lifecycle-aware
+nav_order: 15
 ---
 
 # 수명 주기 인식

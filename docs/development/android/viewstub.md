@@ -1,8 +1,9 @@
 ---
 layout: default
 title: ViewStub
+grand_parent: Development
 parent: Android
-permalink: /docs/android/viewstub
+permalink: /docs/development/android/viewstub
 nav_order: 8
 ---
 
