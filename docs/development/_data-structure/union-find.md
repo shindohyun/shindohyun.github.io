@@ -1,8 +1,9 @@
 ---
 layout: default
 title: Union-Find
+grand_parent: Development
 parent: Data Structure
-permalink: /docs/data-structure/union-find
+permalink: /docs/development/data-structure/union-find
 nav_order: 1
 ---
 

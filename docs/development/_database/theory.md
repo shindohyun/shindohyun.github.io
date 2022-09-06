@@ -1,8 +1,9 @@
 ---
 layout: default
 title: 데이터베이스 이론
+grand_parent: Development
 parent: Database
-permalink: /docs/database/theory
+permalink: /docs/development/database/theory
 nav_order: 1
 ---
 

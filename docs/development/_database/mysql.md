@@ -1,8 +1,9 @@
 ---
 layout: default
 title: MySQL
+grand_parent: Development
 parent: Database
-permalink: /docs/database/mysql
+permalink: /docs/development/database/mysql
 nav_order: 2
 ---
 
