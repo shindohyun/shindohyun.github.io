@@ -1,17 +1,17 @@
 ---
 layout: default
-title: JQuery
-parent: JavaScript
-permalink: /docs/javascript/jquery
+title: 화면 출력 후 호출되는 함수
+grand_parent: Development
+parent: jQuery
+permalink: /docs/development/jquery/load-function
 nav_order: 1
 ---
 
-# JQuery
+# 화면 출력 후 호출되는 함수
 {: .no_toc }
 
 ---
 
-### 화면 출력 후 호출되는 함수
 1. `$(documnet).ready()` 과 `$(function())`
    
    - DOM Tree 생성 직후 호출 (`$(window).load()` 보다 빨리 호출됨)
@@ -20,7 +20,7 @@ nav_order: 1
 
    - Display 이후 호출
 
-   - 참고: JavaScript `window.onload`와 동일하다는 블로그 글을 보고 테스트를 했지만 다른 결과를 보여 정리해봤다. 함께 사용될 일이 없겠지만...그냥 궁금해서...
+   - 참고: JavaScript `window.onload`와 비교
 
      |                              | JQuery `$(window).load()` | JavaScript `window.onload`             |
      | ---------------------------- | ------------------------- | -------------------------------------- |
