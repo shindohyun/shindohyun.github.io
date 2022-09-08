@@ -31,6 +31,7 @@ nav_order: 2
 - 특정 버전 node 설치: `nvm install <version>` ex) nvm install v16.13.2
 - 특정 버전 node 사용: `nvm use <version>`
 - 특정 버전 node 제거: `nvm uninstall <version>`
+- default node 지정: `nvm alias default <version>` ex) nvm alias default v16.13.2
 
 ---
 
