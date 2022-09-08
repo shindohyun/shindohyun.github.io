@@ -20,19 +20,8 @@ nav_order: 2
 ## Let's Encrypt
 SSL 인증서를 무료로 발급해주는 CA
 
-### Setup (Amazon Linux2 기준)
-1. EPEL 설치  
-  a. `sudo yum update`  
-  b. `sudo amazon-linux-extras install epel -y`
-
-2. Certbot 설치  
-  a. `sudo yum install certbot -y`
-
-3. 인증서 생성 (Standalone)  
-  a. `certbot certonly --standalone -d <도메인>` ex) certbot certonly \--standalone -d domain.com -d www.domain.com  
-  b. 생성 위치: `/etc/letsencrypt/live`
-
-### Standalone 특징
+### Standalone
+- Let's Encrypt 발급 방법 중 하나
 - 인증서 생성 시 도메인 와일드카드 지정 불가능
 - 인증서 생성 시 웹 서버를 중단시키고 진행해야함
 
@@ -40,6 +29,18 @@ SSL 인증서를 무료로 발급해주는 CA
 
 ## Certbot
 Let's Encrypt 인증서를 자동으로 발급 및 갱신해주는 프로그램
+
+### Install (Amazon Linux2 기준)
+1. EPEL 설치   
+  a. `sudo yum update`  
+  b. `sudo amazon-linux-extras install epel -y`
+
+2. Certbot 설치  
+  a. `sudo yum install certbot -y`
+
+### 인증서 생성 (Standalone)
+- `certbot certonly --standalone -d <도메인>` ex) certbot certonly \--standalone -d domain.com -d www.domain.com  
+- 생성 위치: `/etc/letsencrypt/live`
 
 ### 명령어
 - 인증서 목록 조회: `certbot certificates`
