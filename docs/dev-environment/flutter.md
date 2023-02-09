@@ -28,3 +28,10 @@ export PATH=$PATH:<Flutter SDK Path>/bin
 3. 환경변수 적용: `source <환경변수 파일>`
 4. PATH 확인: `echo $PATH`
 5. flutter 명령어 유효성 확인: `which flutter`
+
+---
+
+## VSCode
+
+### 확장 프로그램 설치
+- Flutter
