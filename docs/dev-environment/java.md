@@ -44,7 +44,7 @@ export PATH
 - Extension Pack for Java
 
 ### JDK 경로 설정
-`settings.json` 파일애 아래 내용 추가  
+`settings.json` 파일에 아래 내용 추가  
 'Extension Pack for Java' 확장 프로그램이 설치되어 있어야 아래 옵션을 사용할 수 있다.
 
 ```json
