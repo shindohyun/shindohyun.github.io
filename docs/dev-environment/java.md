@@ -44,27 +44,27 @@ export PATH
 - Extension Pack for Java
 
 ### JDK 경로 설정
-`settings.json` 파일 수정  
+`settings.json` 파일애 아래 내용 추가  
 'Extension Pack for Java' 확장 프로그램이 설치되어 있어야 아래 옵션을 사용할 수 있다.
 
 ```json
 {
-    // 자바 언어 서버 실행 환경
-    // * Java11 이상 필요
-    "java.jdt.ls.java.home": "<JDK home path>",
+  // 자바 언어 서버 실행 환경
+  // * Java11 이상 필요
+  "java.jdt.ls.java.home": "<JDK home path>",
 
-    // 프로젝트 실행 환경
-    // build.gradle 설정에 따라 런타임 시 적절한 구성을 선택
-    "java.configuration.runtimes": [
-        {
-          "name": "JavaSE-1.8",
-          "path": "<JDK home path>",
-          "default": true
-        },
-        {
-          "name": "JavaSE-11",
-          "path": "<JDK home path>"
-        }
-    ]
+  // 프로젝트 실행 환경
+  // build.gradle 설정에 따라 런타임 시 적절한 구성을 선택
+  "java.configuration.runtimes": [
+    {
+      "name": "JavaSE-1.8",
+      "path": "<JDK home path>",
+      "default": true
+    },
+    {
+      "name": "JavaSE-11",
+      "path": "<JDK home path>"
+    }
+  ]
 }
 ```

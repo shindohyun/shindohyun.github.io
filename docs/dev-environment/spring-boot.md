@@ -3,7 +3,7 @@ layout: default
 title: Spring Boot
 parent: Dev Environment
 permalink: /docs/dev-environment/spring-boot
-nav_order: 3
+nav_order: 4
 ---
 
 # Spring Boot

@@ -3,7 +3,7 @@ layout: default
 title: Node
 parent: Dev Environment
 permalink: /docs/dev-environment/node
-nav_order: 2
+nav_order: 3
 ---
 
 # Node

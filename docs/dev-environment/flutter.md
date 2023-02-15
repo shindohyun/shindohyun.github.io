@@ -3,7 +3,7 @@ layout: default
 title: Flutter
 parent: Dev Environment
 permalink: /docs/dev-environment/flutter
-nav_order: 5
+nav_order: 7
 ---
 
 # Flutter
