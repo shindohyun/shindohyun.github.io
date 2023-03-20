@@ -15,14 +15,15 @@ permalink: /
 
 ## Interest
 ### Web
-- Frontend: Vue.js, Thymeleaf, JavaScript(ES6+), Axios, Ajax, jQuery, HTML
-- Backend: Spring, Spring Boot, Java, REST API, JSP
+- Frontend: Vue.js, Svelte/SvelteKit, Thymeleaf, JavaScript(ES6+), Bootstrap5, Axios, Ajax, jQuery, HTML
+- Backend: Spring, Spring Boot, eGov, Java, REST API, JSP
 
-### App
+### Mobile App
 - Android: AAC, MVVM, Retrofit, OkHttp
+- Flutter
 
 ### Database
-- MySQL, H2
+- MySQL, MariaDB, Oracle, H2
 
 ### DevOps·Infra
 - Docker
