@@ -84,6 +84,12 @@ nav_order: 1
 - 버전 확인: `cat /etc/issue`
 - root 패스워드 설정: `sudo passwd root`
 
+### docker install
+1. `sudo yum update`
+2. `sudo yum install docker`
+3. docker 그룹에 사용자 추가(sudo 없이 실행): `sudo usermod -aG docker <user account>`
+4. docker 실행: `sudo service docker start`
+
 ### docker-compose install
 1. `sudo curl -L https://github.com/docker/compose/releases/latest/download/docker-compose-$(uname -s)-$(uname -m) -o /usr/local/bin/docker-compose`
 2. `sudo chmod +x /usr/local/bin/docker-compose`
