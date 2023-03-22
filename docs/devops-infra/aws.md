@@ -70,7 +70,7 @@ nav_order: 1
   a. 고정 IP 생성  
   b. 인스턴스에 할당
 3. DNS zone  
-  a. Route 53 에 도메인 등록
+  a. Route 53 에 도메인 등록  
   b. DNS zone 생성  
   c. 도메인 입력  
   d. 레코드 추가: 서브 도메인 생성과 고정 IP 할당  
