@@ -53,6 +53,15 @@ nav_order: 1
 4. `sudo cp /home/ec2-user/.ssh/authorized_keys /root/.ssh`
 5. `sudo systemctl restart sshd`
 
+### 인스턴스에 SFTP 연결 (FileZilla 이용)
+1. 사이트 관리자 > 새 사이트 > 일반
+2. 설정  
+  a. 프로토콜: SFTP  
+  b. 호스트: EC2 인스턴스 퍼블릭 IPv4 주소  
+  c. 로그온 유형: 키 파일  
+  d. 사용자: 사용자 계정  
+  e. 키 파일: 키 페어 생성 시 만들어진 .pem 파일
+
 ---
 
 ## Lightsail
