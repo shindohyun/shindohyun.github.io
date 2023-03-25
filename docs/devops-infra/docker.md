@@ -20,8 +20,13 @@ nav_order: 3
 ## 명령어
 
 ### 생성
-- Dockerfile 빌드: `docker build -t <이미지 이름<:태그>> <Dockerfile 위치>`
+- Dockerfile 빌드(이미지 생성): `docker build -t <이미지 이름<:태그>> <Dockerfile 위치>`
+- 이미지 실행(컨테이너 생성): `docker run [-d -p <호스트 포트>:<컨테이너 포트> -—name <컨테이너명>] <이미지 이름<:태그>>`
 - 컨테이너를 이미지로 저장: `docker commit -a <작성자> -m <코멘트> <컨테이너명> <레포지토리 이름<:태그>>`
+- 이미지를 압축 파일로 저장: `docker save -o <파일명.tar> <이미지 이름<:태그>>`
+- 압축 파일을 이미지로 로드: `docker load -i <파일명.tar>`
+- 컨테이너를 압축 파일로 저장: `docker export <컨테이너명 or 컨테이너ID> <파일명.tar>`
+- 압축 파일을 컨테이너로 로드: `docker import <파일명.tar> - <이미지 이름<:태그>>`
 
 ### 조회
 - 목록 검색: `docker <container|image|network|volume> ls`
